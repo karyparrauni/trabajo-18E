@@ -147,7 +147,7 @@ jobs:
   # =========================================================================
   defectdojo-import:
     name: "Fase 3: Centralización en DefectDojo (Vulnerability Management)"
-    runs-on: arc-runner-set
+    runs-on: arc-runner-set-18e
     needs: [security-audits]
     if: always()
     steps:
